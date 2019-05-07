@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "original_filename": {
+            "type": "string"
+        },
+        "authorizationId": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "string",
+            "format": "binary"
+        }
+    }
+}

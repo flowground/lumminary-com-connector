@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "datasetId": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "snps": {
+                    "description": "JSON-encoded list of snps to be fetched",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "snps"
+            ]
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

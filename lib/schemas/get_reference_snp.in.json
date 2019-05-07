@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "dbsnp_version": {
+            "type": "integer",
+            "default": 149
+        },
+        "grch_version": {
+            "type": "string",
+            "default": "GRCH37P13"
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

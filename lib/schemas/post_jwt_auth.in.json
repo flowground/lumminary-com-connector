@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "description": "The email for a Client, or the API for a partner product",
+                    "type": "string"
+                },
+                "password": {
+                    "description": "The passowrd for a Client, or the API key for a service",
+                    "type": "string"
+                },
+                "role": {
+                    "description": "The role for which authentication will be made. Value : role_product",
+                    "type": "string"
+                },
+                "2FA_token": {
+                    "description": "The One-time password provided by a 2FA product, if enabled",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "username"
+            ]
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

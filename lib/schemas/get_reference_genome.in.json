@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "range_start": {
+            "required": true,
+            "type": "integer"
+        },
+        "range_stop": {
+            "required": true,
+            "type": "integer"
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

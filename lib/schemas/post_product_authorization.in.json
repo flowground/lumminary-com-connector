@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "productId": {
+            "required": true,
+            "type": "string"
+        },
+        "authorizationId": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

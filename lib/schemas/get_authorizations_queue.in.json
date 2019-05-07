@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "seq_num_start": {
+            "type": "string"
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

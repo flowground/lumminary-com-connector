@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "dbsnp_build": {
+            "type": "integer",
+            "default": 149
+        },
+        "reference_genome": {
+            "type": "string",
+            "default": "GRCH37P13"
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "datasetId": {
+            "required": true,
+            "type": "string"
+        },
+        "snpId": {
+            "required": true,
+            "type": "string"
+        },
+        "X_Fields": {
+            "type": "string",
+            "format": "mask"
+        }
+    }
+}
